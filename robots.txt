@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://simcolytics.com/sitemap.xml
+
+# Disallow access to admin areas (if any)
+Disallow: /admin/
+Disallow: /private/ 
