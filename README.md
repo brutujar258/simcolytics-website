@@ -4,7 +4,7 @@ Professional website for Simcolytics - Where Energy meets Intelligence. Solar & 
 
 ## 🌟 About
 
-Simcolytics is a specialized consulting firm offering expert solar and battery storage solutions with over 9 years of industry experience, combined with advanced data science and geoscience expertise.
+Simcolytics is a specialized consulting firm offering expert battery energy storage and solar solutions with over 9 years of industry experience. Our team combines deep battery storage and solar expertise with advanced data science and geoscience capabilities to deliver comprehensive renewable energy solutions worldwide.
 
 ## 🚀 Live Site
 
@@ -53,25 +53,31 @@ simcolytics_site/
 
 ## 🔧 Services Offered
 
-1. **Multi-Family Energy Storage Design**
+### Core Energy Expertise
+1. **Battery Energy Storage Systems (BESS)**
 2. **Solar PV System Design & Permitting**
 3. **Project Management & Financial Modeling**
 4. **Value Engineering & Optimization**
 5. **Regulatory Compliance & Permitting**
-6. **Process Improvement & Training**
-7. **AI/ML Energy Solutions**
-8. **Geoscience & Subsurface Analytics**
-9. **Energy Data Analytics**
+
+### Advanced Analytics & Data Science
+6. **AI/ML Energy Solutions**
+7. **Geoscience & Subsurface Analytics**
+8. **Energy Data Analytics**
+9. **Process Improvement & Training**
 
 ## 📋 Professional Credentials
 
 ### Core Team Expertise
-- **PMP® Certification**: Project Management Professional #2744945
-- **EIT Certification**: Engineer-in-Training #61633 (Texas Board)
-- **Education**: Executive MBA (Project & Strategic Management)
-- **Technical Background**: MS Mechanical Engineering 
-- **Ph.D. Expertise**: Petroleum Engineering, UT Austin
-- **Advanced Certifications**: Microsoft Azure Data Scientist Associate, AWS Machine Learning Specialty
+
+#### Core Energy Expertise
+- **Project Management**: PMP® Certified Professional
+- **Engineering**: EIT Certified (Texas Board) & MS Mechanical Engineering
+- **Business Leadership**: Executive MBA in Project & Strategic Management (GPA 4.0/4.0)
+
+#### Advanced Analytics & Data Science
+- **Advanced Analytics**: Ph.D. in Petroleum Engineering (UT Austin) with focus on subsurface machine learning
+- **Cloud & AI Certifications**: Microsoft Azure Data Scientist Associate, AWS Machine Learning Specialty
 
 
 ## 🌐 Deployment
