@@ -23,18 +23,18 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Form submission handling
-    const contactForm = document.querySelector('.contact-form');
+    const contactForm = document.querySelector('#contactForm');
     
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
             e.preventDefault();
             
             // Get form data
-            const name = this.querySelector('input[type="text"]').value;
-            const email = this.querySelector('input[type="email"]').value;
-            const company = this.querySelector('input[placeholder="Company/Organization"]').value;
-            const service = this.querySelector('select').value;
-            const message = this.querySelector('textarea').value;
+            const name = this.querySelector('input[name="name"]').value;
+            const email = this.querySelector('input[name="email"]').value;
+            const company = this.querySelector('input[name="company"]').value;
+            const service = this.querySelector('select[name="service"]').value;
+            const message = this.querySelector('textarea[name="message"]').value;
             
             // Basic validation
             if (!name || !email || !service) {
@@ -49,20 +49,32 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            // Simulate form submission (replace with actual backend integration)
-            const submitButton = this.querySelector('button[type="submit"]');
-            const originalText = submitButton.textContent;
+            // Create email content
+            const subject = `New Inquiry from ${name} - ${service}`;
+            const body = `
+Name: ${name}
+Email: ${email}
+Company: ${company}
+Service Interest: ${service}
+
+Message:
+${message}
+
+---
+Sent from simcolytics.com
+            `;
             
-            submitButton.textContent = 'Sending...';
-            submitButton.disabled = true;
+            // Create mailto link
+            const mailtoLink = `mailto:simcolytics@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
             
-            // Simulate API call
-            setTimeout(() => {
-                alert('Thank you for your message! We will get back to you soon.');
-                this.reset();
-                submitButton.textContent = originalText;
-                submitButton.disabled = false;
-            }, 2000);
+            // Open email client
+            window.open(mailtoLink, '_blank');
+            
+            // Show success message
+            alert('Thank you for your message! Your email client should open with a pre-filled message. Please send the email to complete your inquiry.');
+            
+            // Reset form
+            this.reset();
         });
     }
 
