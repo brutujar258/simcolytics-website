@@ -1,10 +1,10 @@
 # Simcolytics Website
 
-Professional website for Simcolytics - Where Energy meets Intelligence. Solar & Battery Storage Consulting with Data Science Expertise.
+Professional website for Simcolytics - Where Energy meets Intelligence. Smart Energy Solutions & Data Science Consulting.
 
 ## 🌟 About
 
-Simcolytics is a specialized consulting firm offering expert battery energy storage and solar solutions with over 9 years of industry experience. Our team combines deep battery storage and solar expertise with advanced data science and geoscience capabilities to deliver comprehensive renewable energy solutions worldwide.
+Simcolytics is a specialized energy consulting firm located in Toronto, Canada offering expert battery energy storage and solar solutions with over 9 years of industry experience. Our team combines deep battery storage and solar expertise with advanced data science and geoscience capabilities to deliver comprehensive renewable energy solutions worldwide.
 
 ## 🚀 Live Site
 
@@ -49,7 +49,7 @@ simcolytics_site/
 
 - **Email**: simcolytics@gmail.com
 - **Location**: Toronto, ON
-- **LinkedIn**: linkedin.com/in/rutujabhadre/
+- **LinkedIn**: Available upon request
 
 ## 🔧 Services Offered
 
@@ -62,9 +62,8 @@ simcolytics_site/
 
 ### Advanced Analytics & Data Science
 6. **AI/ML Energy Solutions**
-7. **Geoscience & Subsurface Analytics**
-8. **Energy Data Analytics**
-9. **Process Improvement & Training**
+7. **Energy Data Analytics**
+8. **Geoscience & Subsurface Analytics**
 
 ## 📋 Professional Credentials
 
@@ -73,10 +72,10 @@ simcolytics_site/
 #### Core Energy Expertise
 - **Project Management**: PMP® Certified Professional
 - **Engineering**: EIT Certified (Texas Board) & MS Mechanical Engineering
-- **Business Leadership**: Executive MBA in Project & Strategic Management (GPA 4.0/4.0)
+- **Business Leadership**: Executive MBA in Project & Strategic Management
 
 #### Advanced Analytics & Data Science
-- **Advanced Analytics**: Ph.D. in Petroleum Engineering (UT Austin) with focus on subsurface machine learning
+- **Advanced Analytics**: Ph.D. in Petroleum Engineering with focus on computational physics and subsurface machine learning
 - **Cloud & AI Certifications**: Microsoft Azure Data Scientist Associate, AWS Machine Learning Specialty
 
 
@@ -124,4 +123,4 @@ For questions about the website or consulting services, please contact:
 
 ---
 
-*Simcolytics - Where Energy meets Intelligence. Advancing renewable energy through innovative design, data-driven insights, and cutting-edge AI/ML solutions.*
+*Simcolytics - Where Energy meets Intelligence. Advancing renewable energy through innovative design, data-driven insights, and intelligent energy management solutions.*
