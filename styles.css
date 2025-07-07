@@ -107,7 +107,7 @@ body {
 }
 
 .hero-logo-image {
-    height: 60px;
+    height: 300px;
     width: auto;
     filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
     transition: filter 0.3s ease;
@@ -479,7 +479,7 @@ body {
     }
     
     .hero-logo-image {
-        height: 50px;
+        height: 200px;
     }
     
     .contact-content {
