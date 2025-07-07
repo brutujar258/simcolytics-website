@@ -28,6 +28,11 @@ body {
     top: 0;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    transition: background 0.3s ease;
+}
+
+.header.scrolled {
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
 }
 
 .nav-container {
@@ -37,13 +42,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 80px;
     width: 100%;
     box-sizing: border-box;
 }
 
 .logo-image {
-    height: 100px;
+    height: 60px;
     width: auto;
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
     transition: filter 0.3s ease;
@@ -197,7 +202,8 @@ body {
 /* Services Section */
 .services {
     padding: 80px 0;
-    background: #f8fafc;
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    color: white;
 }
 
 .section-title {
@@ -205,7 +211,7 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 3rem;
-    color: #000000;
+    color: #ffffff;
 }
 
 .services-grid {
@@ -216,12 +222,13 @@ body {
 }
 
 .service-card {
-    background: white;
+    background: rgba(255,255,255,0.1);
     padding: 2.5rem;
     border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    border: 1px solid #e2e8f0;
+    border: 1px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
 }
 
 .service-card:hover {
@@ -239,18 +246,19 @@ body {
     font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #000000;
+    color: #ffffff;
 }
 
 .service-card p {
-    color: #64748b;
+    color: rgba(255,255,255,0.9);
     line-height: 1.6;
 }
 
 /* About Section */
 .about {
     padding: 80px 0;
-    background: white;
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+    color: white;
 }
 
 .about-content {
@@ -260,7 +268,7 @@ body {
 
 .about-description {
     font-size: 1.1rem;
-    color: #64748b;
+    color: rgba(255,255,255,0.9);
     margin-bottom: 2rem;
     line-height: 1.7;
 }
@@ -268,14 +276,15 @@ body {
 .expertise-areas {
     margin-top: 3rem;
     padding: 2rem;
-    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    background: rgba(255,255,255,0.1);
     border-radius: 15px;
     border-left: 4px solid #ffd700;
     margin-bottom: 2rem;
+    backdrop-filter: blur(10px);
 }
 
 .expertise-areas h3 {
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 1rem;
     font-size: 1.3rem;
 }
@@ -287,7 +296,7 @@ body {
 
 .expertise-areas li {
     padding: 0.5rem 0;
-    color: #64748b;
+    color: rgba(255,255,255,0.9);
     position: relative;
     padding-left: 1.5rem;
 }
