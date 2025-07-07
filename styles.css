@@ -39,7 +39,7 @@ body {
 }
 
 .logo-image {
-    height: 50px;
+    height: 70px;
     width: auto;
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
     transition: filter 0.3s ease;
@@ -99,6 +99,23 @@ body {
     margin-bottom: 2rem;
     opacity: 0.9;
     line-height: 1.6;
+}
+
+.hero-logo {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.hero-logo-image {
+    height: 60px;
+    width: auto;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+    transition: filter 0.3s ease;
+    object-fit: contain;
+}
+
+.hero-logo-image:hover {
+    filter: drop-shadow(0 6px 12px rgba(0,0,0,0.3));
 }
 
 .hero-buttons {
@@ -459,6 +476,10 @@ body {
     
     .hero-title {
         font-size: 2.5rem;
+    }
+    
+    .hero-logo-image {
+        height: 50px;
     }
     
     .contact-content {
