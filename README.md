@@ -18,7 +18,7 @@ simcolytics_site/
 ├── index.html              # Main website page
 ├── styles.css              # CSS styling
 ├── script.js               # JavaScript functionality
-├── logo_draft_v2.png       # Main logo (used in header)
+├── logo_draft_v3.png       # Main logo (used in header)
 ├── rotating_images/        # Image slider assets
 ├── favicon.svg             # Website favicon
 ├── CNAME                   # Custom domain configuration

@@ -24,7 +24,7 @@
    - `index.html`
    - `styles.css`
    - `script.js`
-   - `logo_draft_v2.png`
+   - `logo_draft_v3.png`
    - `favicon.svg`
    - `CNAME`
    - `404.html`
@@ -163,7 +163,7 @@ TTL: 600
      - nw_flow.jpg
 
 5. **Logo not displaying:**
-   - Verify logo_draft_v2.png is uploaded
+   - Verify logo_draft_v3.png is uploaded
    - Check file name matches exactly (case-sensitive)
 
 ## 📞 Support
