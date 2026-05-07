@@ -518,6 +518,15 @@ a {
     font-size: 1rem;
 }
 
+.about-subhead {
+    color: var(--gold);
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    margin: 1.75rem 0 0.75rem;
+    text-transform: uppercase;
+}
+
 .expertise-areas {
     margin-top: 2.5rem;
     padding: 1.75rem;
