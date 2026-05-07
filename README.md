@@ -4,7 +4,7 @@ Professional website for Simcolytics - Where Energy meets Intelligence. Smart En
 
 ## 🌟 About
 
-Simcolytics is a specialized energy consulting firm located in Toronto, Canada offering expert battery energy storage and solar solutions with over 9 years of industry experience. Our team combines deep battery storage and solar expertise with advanced data science and geoscience capabilities to deliver comprehensive renewable energy solutions worldwide.
+Simcolytics is a specialized energy consulting firm located in Toronto, Canada offering expert battery energy storage and solar solutions with over 10 years of industry experience. Our team combines deep battery storage and solar expertise with advanced data science and geoscience capabilities to deliver comprehensive renewable energy solutions worldwide.
 
 ## 🚀 Live Site
 

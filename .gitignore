@@ -1,0 +1,5 @@
+# Internal planning + working artifacts (not for the public site)
+PLAN.md
+audit/
+.playwright-mcp/
+.DS_Store

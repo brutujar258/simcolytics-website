@@ -3,40 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page Not Found - Simcolytics</title>
+    <title>Page Not Found — Simcolytics</title>
+    <meta name="theme-color" content="#0b0b0b">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="logo">
-                    <img src="logo_draft_v3.png" alt="Simcolytics - Where Energy meets Intelligence" class="logo-image">
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/#services">Services</a></li>
-                    <li><a href="/#about">About</a></li>
-                    <li><a href="/#contact">Contact</a></li>
-                </ul>
-            </div>
+    <header class="header" id="header">
+        <nav class="nav-container" aria-label="Primary">
+            <a href="/" class="logo" aria-label="Simcolytics — Home">
+                <img src="logo.png" alt="Simcolytics" class="logo-image" width="697" height="240">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+                <span class="nav-toggle-bar"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/#services">Services</a></li>
+                <li><a href="/#about">About</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main style="padding-top: 120px; min-height: 60vh; display: flex; align-items: center; justify-content: center;">
-        <div class="container" style="text-align: center;">
-            <div style="max-width: 600px; margin: 0 auto;">
-                <h1 style="font-size: 4rem; color: #1e3c72; margin-bottom: 1rem;">404</h1>
-                <h2 style="font-size: 2rem; color: #64748b; margin-bottom: 2rem;">Page Not Found</h2>
-                <p style="font-size: 1.2rem; color: #64748b; margin-bottom: 3rem; line-height: 1.6;">
-                    The page you're looking for doesn't exist. It might have been moved, deleted, or you entered the wrong URL.
-                </p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                    <a href="/" class="btn btn-primary" style="text-decoration: none;">Go Home</a>
-                    <a href="/#contact" class="btn btn-secondary" style="text-decoration: none;">Contact Us</a>
-                </div>
+    <main class="error-page">
+        <div class="container">
+            <p class="error-code">404</p>
+            <h1 class="error-title">Page not found</h1>
+            <p class="error-text">The page you're looking for doesn't exist — it may have moved, been deleted, or the URL was mistyped.</p>
+            <div class="hero-buttons" style="justify-content: center;">
+                <a href="/" class="btn btn-primary">Go Home</a>
+                <a href="/#contact" class="btn btn-secondary">Contact Us</a>
             </div>
         </div>
     </main>
@@ -46,29 +47,32 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Simcolytics</h3>
-                    <p>Energy solutions and data science consulting with 9+ years of proven expertise in renewable energy, battery storage and machine learning.</p>
+                    <p>Where Energy meets Intelligence.</p>
+                    <p>Energy solutions and data science consulting with 10+ years of proven expertise in renewable energy, battery storage and machine learning.</p>
                 </div>
                 <div class="footer-section">
                     <h4>Services</h4>
                     <ul>
                         <li>Battery Energy Storage Systems</li>
-                        <li>Solar PV System Design</li>
-                        <li>AI/ML Energy Solutions</li>
-                        <li>Energy Data Analytics</li>
+                        <li>Solar PV Design</li>
+                        <li>AI/ML &amp; Data Analytics</li>
                         <li>Project Management</li>
                         <li>Geoscience Analytics</li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Contact</h4>
-                    <p>simcolytics@gmail.com</p>
+                    <p><a href="mailto:simcolytics@gmail.com">simcolytics@gmail.com</a></p>
                     <p>Toronto, ON</p>
+                    <p><a href="https://www.linkedin.com/in/rutujabhadre/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Simcolytics. All rights reserved. | Where Energy meets Intelligence</p>
+                <p>&copy; 2026 Simcolytics. All rights reserved. · Where Energy meets Intelligence</p>
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
-</html> 
+</html>
