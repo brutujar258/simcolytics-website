@@ -1,10 +1,10 @@
 # Simcolytics Website
 
-Professional website for Simcolytics - Where Energy meets Intelligence. Smart Energy Solutions & Data Science Consulting.
+Professional website for Simcolytics Inc. - Where Energy meets Intelligence. Smart Energy Solutions, Data Science & Digital Product Consulting.
 
 ## 🌟 About
 
-Simcolytics is a specialized energy consulting firm located in Toronto, Canada offering expert battery energy storage and solar solutions with over 10 years of industry experience. Our team combines deep battery storage and solar expertise with advanced data science and geoscience capabilities to deliver comprehensive renewable energy solutions worldwide.
+Simcolytics Inc. is a Toronto-based consulting firm offering battery energy storage, solar, data science and digital product solutions. Our team combines deep energy expertise with advanced analytics, geoscience and software capabilities to deliver renewable-energy systems and accessible, interactive web platforms.
 
 ## 🚀 Live Site
 
@@ -64,6 +64,16 @@ simcolytics_site/
 6. **AI/ML Energy Solutions**
 7. **Energy Data Analytics**
 8. **Geoscience & Subsurface Analytics**
+
+### Digital Products
+9. **Interactive Web Platforms & Calculators**
+10. **Data Visualization & Knowledge Products**
+11. **Multilingual, Accessibility-Conscious Experiences**
+12. **Ongoing Website Maintenance**
+
+## Selected Public Work
+
+- **[Savings to Prosperity Companion](https://savingstoprosperity.com)** - A multilingual financial-literacy platform with educational content, interactive financial calculators and quizzes in English, Hindi and Marathi. Designed and maintained by Simcolytics Inc.
 
 ## 📋 Professional Credentials
 
