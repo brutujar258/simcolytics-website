@@ -3,3 +3,18 @@ PLAN.md
 audit/
 .playwright-mcp/
 .DS_Store
+
+# Contracts, agreements and other private documents.
+# THIS REPOSITORY IS PUBLIC (github.com/brutujar258/simcolytics-website) and is
+# served at simcolytics.com, so anything committed here is world-readable.
+agreement_gitignore/
+*agreement*/
+*contract*/
+
+# Office/PDF documents have no place on this static site, and this is the file
+# type private paperwork arrives as. If you ever genuinely need to publish one
+# (a case study, a spec sheet), override deliberately:  git add -f the-file.pdf
+*.pdf
+*.docx
+*.doc
+*.xlsx
