@@ -1,0 +1,7 @@
+# GitHub Pages (Jekyll) configuration.
+# The site is plain static HTML; this file exists only to keep build tooling
+# out of the published site. tools/ regenerates the logo assets and is not
+# part of the website itself.
+exclude:
+  - tools/
+  - GITHUB_PAGES_DEPLOYMENT.md

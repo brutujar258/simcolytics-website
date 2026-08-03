@@ -18,3 +18,7 @@ agreement_gitignore/
 *.docx
 *.doc
 *.xlsx
+
+# Python bytecode from tools/
+__pycache__/
+*.pyc
