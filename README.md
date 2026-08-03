@@ -18,9 +18,13 @@ simcolytics_site/
 ├── index.html              # Main website page
 ├── styles.css              # CSS styling
 ├── script.js               # JavaScript functionality
-├── logo_draft_v3.png       # Main logo (used in header)
+├── logo-on-dark.png        # Wordmark lockup used in the header (dark theme)
+├── logo.png                # Wordmark lockup for light surfaces (og:image)
+├── logo-mark.svg           # Icon-only mark, vector (print / scaling)
+├── logo-wise-avatar*.png   # Square icon for invoicing + profile avatars
+├── apple-touch-icon.png    # iOS home-screen icon (opaque; iOS ignores alpha)
 ├── rotating_images/        # Image slider assets
-├── favicon.svg             # Website favicon
+├── favicon.png             # Browser tab icon
 ├── CNAME                   # Custom domain configuration
 ├── 404.html               # Custom 404 error page
 ├── .htaccess              # Server configuration (for future use)
